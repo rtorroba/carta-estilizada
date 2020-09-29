@@ -1,0 +1,33 @@
+:root{
+    --color-papel: #f2cc8f;
+    --color-letra: #5d1515;
+    --color-fondo: #3d405b;
+
+}
+body{
+    
+    width: 800px; 
+    margin: 50px auto 50px auto;
+    color: var(--color-letra);
+    background-color: var(--color-fondo);
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'Grenze Gotisch', cursive;
+}
+main{
+    background-color: var(--color-papel);
+    padding: 40px;
+    -webkit-box-shadow: 0px 7px 24px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 24px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 24px 10px rgba(0,0,0,0.75);
+}
+a{
+    text-decoration: underline;
+    color: var(--color-letra);
+}
+.t-align-r{
+    text-align: right;
+}
+.formula{
+    font-weight: 800;
+    letter-spacing: 2px;
+}
