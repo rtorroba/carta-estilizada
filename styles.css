@@ -1,24 +1,21 @@
-:root{
-    --color-papel: #f2cc8f;
-    --color-letra: #5d1515;
-    --color-fondo: #3d405b;
-    --color-degradado: rgba(119, 73, 54, 0.75);
-
+:root {
+  --color-papel: #f2cc8f;
+  --color-letra: #5d1515;
+  --color-fondo: #3d405b;
 }
-body{
-    
-    width: 800px; 
-    margin: 50px auto 50px auto;
-    color: var(--color-letra);
-    background-color: var(--color-fondo);
-    /*font-family: 'Dancing Script', cursive;*/
-    font-family: 'Grenze Gotisch', cursive;
+body {
+  width: 800px;
+  margin: 50px auto 50px auto;
+  color: var(--color-letra);
+  background-color: var(--color-fondo);
+  /*font-family: 'Dancing Script', cursive;*/
+  font-family: "Grenze Gotisch", cursive;
 }
-main{
-    background-color: var(--color-papel);
-    padding: 40px;
-    
+main {
+  background-color: var(--color-papel);
+  padding: 40px;
 
+<<<<<<< HEAD
     -webkit-box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
     -moz-box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
     box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
@@ -48,3 +45,29 @@ a{
     margin-bottom: 0px;
     filter: drop-shadow(2px 4px 6px black);
 }
+=======
+  -webkit-box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
+  -moz-box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
+  box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
+}
+a {
+  text-decoration: underline;
+  color: var(--color-letra);
+}
+.t-align-r {
+  text-align: right;
+}
+.formula {
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.formula {
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.sombra {
+  -webkit-box-shadow: 0px 7px 24px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 7px 24px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 7px 24px 10px rgba(0, 0, 0, 0.75);
+}
+>>>>>>> 749a73791df1221f4a11584a9a2a22057b5252da
