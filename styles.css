@@ -1,16 +1,25 @@
 :root {
   --color-papel: #f2cc8f;
   --color-letra: #5d1515;
-  --color-fondo: #3d405b;
+  --color-fondo-claro: #3d405b;
+  --color-fondo-oscuro: #161c24;
   --color-degradado: rgba(119, 73, 54, 0.75);
 }
 body {
   width: 800px;
   margin: 50px auto 50px auto;
   color: var(--color-letra);
-  background-color: var(--color-fondo);
+  /*background-color: var(--color-fondo-claro);*/
   /*font-family: 'Dancing Script', cursive;*/
   font-family: "Grenze Gotisch", cursive;
+  background: var(--color-fondo-claro);
+  background: -moz-linear-gradient(top, var(--color-fondo-claro) 0%, var(--color-fondo-oscuro) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, var(--color-fondo-claro)), color-stop(100%, var(--color-fondo-oscuro)));
+  background: -webkit-linear-gradient(top, var(--color-fondo-claro) 0%, var(--color-fondo-oscuro) 100%);
+  background: -o-linear-gradient(top, var(--color-fondo-claro) 0%, var(--color-fondo-oscuro) 100%);
+  background: -ms-linear-gradient(top, var(--color-fondo-claro) 0%, var(--color-fondo-oscuro) 100%);
+  background: linear-gradient(to bottom, var(--color-fondo-claro) 0%, var(--color-fondo-oscuro) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-fondo-claro)', endColorstr='var(--color-fondo-oscuro)', GradientType=0 );
 }
 main {
   background-color: var(--color-papel);
