@@ -46,6 +46,6 @@ a {
   filter: drop-shadow(2px 4px 6px black);
 }
 dt {
-  text-decoration: overline underline;
+  text-decoration: underline;
   line-height: -3px;
 }
