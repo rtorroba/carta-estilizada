@@ -24,7 +24,7 @@ body {
 main {
   background-color: var(--color-papel);
   padding: 40px;
-
+  margin-bottom: 120px;
   -webkit-box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
   -moz-box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
   box-shadow: inset 0px 7px 70px 16px var(--color-degradado);
@@ -49,10 +49,24 @@ a {
   text-shadow: 1px 1px 3px var(--color-degradado);
 }
 .sello {
+  position: absolute;
   text-align: right;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -160px;
+  margin-left: 550px;
   filter: drop-shadow(2px 4px 6px black);
+}
+.lacre{
+  position: relative;
+  height: 100px;
+  z-index: 2;
+}
+.lazo{
+  position: relative;
+  height: 170px;
+  width: 70px;
+  top: 115px;
+  left: -83px;
+  z-index: 1;
 }
 dt {
   text-decoration: underline;
